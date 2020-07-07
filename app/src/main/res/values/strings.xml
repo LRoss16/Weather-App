@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="first_time">Thank you for downloading the weather app</string>
+    <string name="run_through">Since this is your first time here is a quick run down
+    This app will dispaly the weather information for the current day and the next five days for your current location.
+    You will also be able to get the weather information for a further 9 countries.
+    Just click on the settings icon to do this.</string>
+    <string name="welcome">Welcome to the weather app!</string>
+    <string name="city_country">Inverurie, Scotland</string>
+    <string name="date_today">Friday, 8 July</string>
+    <string name="current_temperature">26</string>
+    <string name="min_temp">-1</string>
+    <string name="max_temp">32</string>
+    <string name="weather_information">Partly Cloud</string>
+    <string name="temp_information">26, partly cloudy</string>
+    <string name="wind">Wind</string>
+    <string name="wind_speed">18 km/h</string>
+    <string name="wind_direction">east </string>
+    <string name="humidity">Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity_rate">73%</string>
+    <string name="sunrise">Sun rise</string>
+    <string name="sunset">Sun set</string>
+    <string name="sunrise_time">7:15</string>
+    <string name="sunset_time">21:10</string>
+    <string name="day_of_week">Mon</string>
+    <string name="location_hints">Type the city you want to add</string>
+    <string name="location_example">Example Paris</string>
+    <string name="add_new_location">Add new location</string>
+    <string name="stored_location">You can only store 10 locations</string>
+    <string name="permission_notice">This permission allows you to see the weather in your current location, please accept</string>
+    <string name="go_to_location">Go to location setting</string>
+</resources>

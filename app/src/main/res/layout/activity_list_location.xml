@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackground"
+                tools:context="com.example.lewis.weather.ListLocationActivity" tools:ignore="MissingDefaultResource">
+
+    <ImageButton
+            android:id="@+id/add_location"
+            android:layout_width="145dp"
+            android:layout_height="138dp"
+            android:background="@android:color/transparent"
+            android:layout_centerHorizontal="true"
+            android:elevation="@dimen/_4sdp"
+            android:src="@drawable/add"
+            android:layout_marginBottom="@dimen/_24sdp" android:layout_marginLeft="@dimen/_24sdp"
+            android:layout_marginStart="@dimen/_24sdp" android:layout_marginEnd="@dimen/_24sdp"
+            android:layout_marginRight="@dimen/_24sdp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/location_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/add_location"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:scrollbars="none"/>
+
+</RelativeLayout>
